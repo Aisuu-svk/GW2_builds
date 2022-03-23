@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*? Custom properties */
+
+:root {
+  --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent: #16e0bd;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.12em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+/*? END Custom properties */
+
+/*? Typography */
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+/*? END Typography */
+
+body {
+  background-color: #303030;
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+/* NAV BAR */
+.nav ul {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 20px 0;
+  background: #303030;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.nav ul li {
+  list-style: none;
+  text-align: center;
+  display: block;
+  border-right: 1px solid #fff;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+  display: block;
+}
+
+.nav ul li:last-child {
+  border-right: none;
+}
+
+.nav_name {
+  padding-left: 15px;
+}
+
+.nav_link {
+  color: #fff;
+  display: block;
+  font-size: 22px;
+}
