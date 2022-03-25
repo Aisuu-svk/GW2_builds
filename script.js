@@ -1,5 +1,5 @@
 $(function () {
-  $("#menu").load("../html/menu.html");
+  $("#menu").load("/html/menu.html");
 });
 
 function copyToClipboard(element) {
