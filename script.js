@@ -1,5 +1,5 @@
 $(function () {
-  $("#menu").load("/html/menu.html");
+  $("#menu").load("https://aisuu-svk.github.io/GW2_builds/html/menu.html");
 });
 
 function copyToClipboard(element) {
