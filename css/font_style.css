@@ -26,6 +26,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-berserker-gw:before {
+  content: "\e909";
+}
+.ic-chronomancer-gw:before {
+  content: "\e90a";
+}
+.ic-daredevil-gw:before {
+  content: "\e90b";
+}
+.ic-deadeye-gw:before {
+  content: "\e90c";
+}
+.ic-dragonhunter-gw:before {
+  content: "\e90d";
+}
+.ic-druid-gw:before {
+  content: "\e90e";
+}
+.ic-firebrand-gw:before {
+  content: "\e90f";
+}
+.ic-herald-gw:before {
+  content: "\e910";
+}
+.ic-holosmith-gw:before {
+  content: "\e911";
+}
+.ic-mirage-gw:before {
+  content: "\e912";
+}
+.ic-reaper-gw:before {
+  content: "\e913";
+}
+.ic-renegade-gw:before {
+  content: "\e914";
+}
+.ic-scourge-gw:before {
+  content: "\e915";
+}
+.ic-scrapper-gw:before {
+  content: "\e916";
+}
+.ic-soulbeast-gw:before {
+  content: "\e917";
+}
+.ic-spellbreaker-gw:before {
+  content: "\e918";
+}
+.ic-tempest-gw:before {
+  content: "\e919";
+}
+.ic-weaver-gw:before {
+  content: "\e91a";
+}
 .ic-thief-gw:before {
   content: "\e902";
 }

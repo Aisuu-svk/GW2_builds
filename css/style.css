@@ -13,14 +13,24 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
+  --clr-primary: #424242;
+  --clr-primary-light: #6d6d6d;
+  --clr-primary-dark: #1b1b1b;
+  --clr-secondary: #00bfa5;
+  --clr-secondary-light: #5df2d6;
+  --clr-secondary-dark: #008e76;
   --clr-light: #fff;
+  --clr-light-dark: #666666;
+  --clr-light-brown: #ccc2a6;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-black: #222222;
 
-  --fs-h1: 3rem;
-  --fs-h2: 2.25rem;
+  --fs-h1: 2.5rem;
+  --fs-h2: 1.8rem;
   --fs-h3: 1.25rem;
-  --fs-body: 1rem;
+  --fs-body: 1.5rem;
+  --fs-nav: 1rem;
+  --fs-small: 0.8rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.12em 0.125em 0.25em rgba(0, 0, 0, 0.15);
@@ -32,7 +42,6 @@
 h1,
 h2,
 h3 {
-  line-height: 1;
   margin: 0;
 }
 
@@ -50,55 +59,125 @@ h3 {
 
 /*? END Typography */
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body {
-  background-color: #303030;
-  color: var(--clr-dark);
-  margin: 0;
+  background-color: var(--clr-primary);
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
-  line-height: 1.6;
 }
 
-section {
-  padding: 5em 2em;
+.main {
+  float: left;
+  width: 100%;
 }
 
-/* NAV BAR */
+/*? NAV BAR */
+
 .nav ul {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 20px 0;
-  background: #303030;
+  line-height: 1.4;
+  padding-left: 0;
   display: flex;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-.nav ul li {
+  justify-content: center;
   list-style: none;
-  text-align: center;
-  display: block;
-  border-right: 1px solid #fff;
+  margin: 0px auto;
+  padding: 20px 0;
+  background: var(--clr-primary);
+  border-radius: 0px 0px 5px 5px / 5px 5px 5px 5px;
 }
 
-.nav ul li a {
-  text-decoration: none;
-  padding: 0 20px;
-  display: block;
+.nav li {
+  padding: 0 10px;
+  border-right: 1px solid var(--clr-secondary);
 }
 
 .nav ul li:last-child {
   border-right: none;
 }
 
-.nav_name {
-  padding-left: 15px;
+ul li .nav_name {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-nav);
+  transition: 0.5s;
 }
 
 .nav_link {
-  color: #fff;
+  color: var(--clr-light);
   display: block;
-  font-size: 22px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.nav_link:hover {
+  color: var(--clr-secondary-light);
+}
+
+ul li a .nav_icon {
+  height: 30px;
+  width: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 0px;
+}
+
+ul li a .nav_icon .fa {
+  width: 100%;
+  font-size: var(--fs-h2);
+  transition: 0.5s;
+  color: var(--clr-light);
+}
+
+ul li a .nav_icon .fa:last-child {
+  color: var(--clr-dark);
+}
+
+ul li a:hover .nav_icon .fa {
+  color: var(--clr-secondary-light);
+  transform: translateY(-100%);
+}
+
+/*? CLASS BUILD */
+
+.build-class {
+  background-color: var(--clr-primary-light);
+  box-shadow: 0px 1px 5px 1px var(--clr-black);
+  color: var(--clr-light);
+  line-height:  2rem;
+}
+
+.icon-class {
+  padding-right: 10px;
+}
+
+.build-copy {
+  background-color: var(--clr-primary-light);
+}
+
+.build-copy {
+  padding: 8px 8px;
+  background: var(--clr-secondary);
+  color: var(--clr-black);
+  border-radius: 0.25rem;
+  width: fit-content;
+  width: 120px;
+}
+
+.build-copy a {
+  text-decoration: none;
+}
+
+.build-copy a:hover {
+  background: var(--clr-secondary-light);
+}
+
+.build-copy:hover {
+  background: var(--clr-secondary-light);
+  cursor: pointer;
+}
+
+.build-name {
+  /* width: 200px; */
 }
