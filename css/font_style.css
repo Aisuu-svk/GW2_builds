@@ -1,10 +1,14 @@
 @font-face {
   font-family: "gw2-font";
-  src: url("../fonts/gw2-font.eot?gs4jmu");
-  src: url("../fonts/gw2-font.eot?gs4jmu#iefix") format("embedded-opentype"),
-    url("../fonts/gw2-font.ttf?gs4jmu") format("truetype"),
-    url("../fonts/gw2-font.woff?gs4jmu") format("woff"),
-    url("../fonts/gw2-font.svg?gs4jmu#gw2-font") format("svg");
+  src: url("https://aisuu-svk.github.io/GW2_builds/fonts/gw2-font.eot?x2e7m5");
+  src: url("https://aisuu-svk.github.io/GW2_builds/fonts/gw2-font.eot?x2e7m5#iefix")
+      format("embedded-opentype"),
+    url("https://aisuu-svk.github.io/GW2_builds/fonts/gw2-font.ttf?x2e7m5")
+      format("truetype"),
+    url("https://aisuu-svk.github.io/GW2_builds/fonts/gw2-font.woff?x2e7m5")
+      format("woff"),
+    url("https://aisuu-svk.github.io/GW2_builds/fonts/gw2-font.svg?x2e7m5#gw2-font")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +30,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-mechanist-gw:before {
+  content: "\e91b";
+}
 .ic-berserker-gw:before {
   content: "\e909";
 }

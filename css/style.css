@@ -145,7 +145,7 @@ ul li a:hover .nav_icon .fa {
   background-color: var(--clr-primary-light);
   box-shadow: 0px 1px 5px 1px var(--clr-black);
   color: var(--clr-light);
-  line-height:  2rem;
+  line-height: 2rem;
 }
 
 .icon-class {
