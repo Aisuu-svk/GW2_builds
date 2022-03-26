@@ -166,7 +166,7 @@ ul li a:hover .nav_icon .fa {
 .build-copy {
   padding: 8px 8px;
   background: var(--clr-secondary);
-  color: var(--clr-black);
+  color: var(--clr-light);
   border-radius: 0.25rem;
   width: fit-content;
   width: 120px;
