@@ -75,6 +75,13 @@ body {
   width: 100%;
 }
 
+.main h1 {
+  color: var(--clr-light);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
+  text-align: center;
+}
+
 /*? NAV BAR */
 
 .nav ul {
