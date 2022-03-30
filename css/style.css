@@ -177,7 +177,7 @@ nav a:hover {
 
 .build-copy a {
   text-decoration: none;
-  color: var(--clr-light);
+  color: var(--clr-primary-600);
 }
 
 .build-copy a:hover {
