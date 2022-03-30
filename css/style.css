@@ -12,6 +12,7 @@
 
   --clr-light: #fff;
   --clr-grey: #666666;
+  --clr-grey-light: #a9a9a9;
 
   --fs-300: 0.875rem;
   --fs-400: 1rem;
@@ -123,7 +124,7 @@ nav a:hover {
 
 .class-container {
   margin-top: 10px;
-  background-color: var(--clr-light);
+  background-color: var(--clr-grey-light);
   color: var(--clr-primary-600);
   display: flex;
   border-radius: 0.25rem;
