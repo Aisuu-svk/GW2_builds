@@ -135,19 +135,25 @@ nav a:hover {
   border-right: 1px solid var(--clr-grey);
   padding: 10px;
   line-height: 1.5rem;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .build-name__name {
   font-weight: var(--fw-900);
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 .build-icon {
   font-size: var(--fs-600);
   padding-right: 10px;
   line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .build-notes {
