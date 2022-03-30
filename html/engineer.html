@@ -4,230 +4,190 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>Engineer</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/skeleton.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/font_style.css" />
-
-    <!-- Favicon -->
-    <link rel="icon" href="/img/favicon_io/favicon-32x32.png" />
-
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Engineer</title>
+    <link rel="stylesheet" href="../css/variables.css" />
+    <script src="../script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <nav class="nav">
-        <ul>
+    <header>
+      <div class="logo">
+        <a href="../index.html"><img src="../img/gw2_logo.png" /></a>
+      </div>
+      <nav>
+        <ul role="list">
           <li>
-            <a class="nav_link" href="warrior.html">
-              <div class="nav_icon">
-                <i class="fa ic-warrior-gw" aria-hidden="true"></i>
-                <i class="fa ic-warrior-gw" aria-hidden="true"></i>
+            <a href="warrior.html">
+              <div class="nav-icon">
+                <i class="fa ic-warrior-gw"></i>
               </div>
-              <div class="nav_name">Warrior</div>
-            </a>
+              <div class="nav_name">Warrior</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="guardian.html">
-              <div class="nav_icon">
-                <span class="fa ic-guardian-gw" aria-hidden="true"></span>
-                <span class="fa ic-guardian-gw" aria-hidden="true"></span>
+            <a href="guardian.html">
+              <div class="nav-icon">
+                <i class="fa ic-guardian-gw"></i>
               </div>
-              <div class="nav_name">Guardian</div>
-            </a>
+              <div class="nav_name">Guardian</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="revenant.html">
-              <div class="nav_icon">
-                <span class="fa ic-revenant-gw" aria-hidden="true"></span>
-                <span class="fa ic-revenant-gw" aria-hidden="true"></span>
+            <a href="revenant.html">
+              <div class="nav-icon">
+                <i class="fa ic-revenant-gw"></i>
               </div>
-              <div class="nav_name">Revenant</div>
-            </a>
+              <div class="nav_name">Revenant</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="ranger.html">
-              <div class="nav_icon">
-                <span class="fa ic-ranger-gw" aria-hidden="true"></span>
-                <span class="fa ic-ranger-gw" aria-hidden="true"></span>
+            <a href="ranger.html">
+              <div class="nav-icon">
+                <i class="fa ic-ranger-gw"></i>
               </div>
-              <div class="nav_name">Ranger</div>
-            </a>
+              <div class="nav_name">Ranger</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="engineer.html">
-              <div class="nav_icon">
-                <span class="fa ic-engineer-gw" aria-hidden="true"></span>
-                <span class="fa ic-engineer-gw" aria-hidden="true"></span>
+            <a href="engineer.html">
+              <div class="nav-icon">
+                <i class="fa ic-engineer-gw"></i>
               </div>
-              <div class="nav_name">Engineer</div>
-            </a>
+              <div class="nav_name">Engineer</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="thief.html">
-              <div class="nav_icon">
-                <span class="fa ic-thief-gw" aria-hidden="true"></span>
-                <span class="fa ic-thief-gw" aria-hidden="true"></span>
+            <a href="thief.html">
+              <div class="nav-icon">
+                <i class="fa ic-thief-gw"></i>
               </div>
-              <div class="nav_name">Thief</div>
-            </a>
+              <div class="nav_name">Thief</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="mesmer.html">
-              <div class="nav_icon">
-                <span class="fa ic-mesmer-gw" aria-hidden="true"></span>
-                <span class="fa ic-mesmer-gw" aria-hidden="true"></span>
+            <a href="mesmer.html">
+              <div class="nav-icon">
+                <i class="fa ic-mesmer-gw"></i>
               </div>
-              <div class="nav_name">Mesmer</div>
-            </a>
+              <div class="nav_name">Mesmer</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="necromancer.html">
-              <div class="nav_icon">
-                <span class="fa ic-necromancer-gw"></span>
-                <span class="fa ic-necromancer-gw"></span>
+            <a href="necromancer.html">
+              <div class="nav-icon">
+                <i class="fa ic-necromancer-gw"></i>
               </div>
-              <div class="nav_name">Necro</div>
-            </a>
+              <div class="nav_name">Necro</div></a
+            >
           </li>
-
           <li>
-            <a class="nav_link" href="elementalist.html">
-              <div class="nav_icon">
-                <span class="fa ic-elementalist-gw"></span>
-                <span class="fa ic-elementalist-gw"></span>
+            <a href="elementalist.html">
+              <div class="nav-icon">
+                <i class="fa ic-elementalist-gw"></i>
               </div>
-              <div class="nav_name">Elemental</div>
-            </a>
+              <div class="nav_name">Elemental</div></a
+            >
           </li>
         </ul>
       </nav>
+    </header>
+    <div class="wrapper">
+      <h1>Engineer</h1>
 
-      <div class="main">
-        <h1>Engineer</h1>
+      <div class="class-container">
+        <div class="build-name">
+          <div class="build-icon"><i class="ic-mechanist-gw"></i></div>
+          <div class="build-name__name">Heal Alacrity Mechanist</div>
+        </div>
+        <div class="build-notes">
+          Harrier all & Monk rune. Mace & Shield (transference / paralyzation).
+        </div>
+        <div class="build-copy">
+          <a
+            onclick="navigator.clipboard.writeText('[&DQMvOR0fRiqEAAAAEBsAAAsbAACVAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+            href="javascript://"
+          >
+            Copy
+          </a>
+        </div>
+      </div>
 
-        <table class="w3-table w3-margin-top build-class">
-          <tr>
-            <td class="w3-left-align">
-              <i class="ic-mechanist-gw icon-class"></i>Heal Alacrity Mechanist
-            </td>
-            <td class="w3-left-align">
-              Harrier all & Monk rune. Mace & Shield (transference /
-              paralyzation).
-            </td>
-            <td class="w3-right-align build-copy">
-              <a
-                onclick="navigator.clipboard.writeText('[&DQMvOR0fRiqEAAAAEBsAAAsbAACVAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-                href="javascript://"
-              >
-                Copy Build
-              </a>
-            </td>
-          </tr>
-        </table>
-        <table class="w3-table w3-margin-top build-class">
-          <tr>
-            <td class="w3-left-align">
-              <i class="ic-mechanist-gw icon-class"></i>Power Alacrity Mechanist
-            </td>
-            <td class="w3-left-align">
-              7 piece Diviner, rest Berserker. Mace & Pistol (Force / Air).
-            </td>
-            <td class="w3-right-align build-copy">
-              <a
-                onclick="navigator.clipboard.writeText('[&DQMGOyYvRioNGwAAhgAAABAbAAAaGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-                href="javascript://"
-              >
-                Copy Build
-              </a>
-            </td>
-          </tr>
-        </table>
+      <div class="class-container">
+        <div class="build-name">
+          <div class="build-icon"><i class="ic-mechanist-gw"></i></div>
+          <div class="build-name__name">Power Alacrity</div>
+        </div>
+        <div class="build-notes">
+          7 piece Diviner, rest Berserker. Mace & Pistol (Force / Air).
+        </div>
+        <div class="build-copy">
+          <a
+            onclick="navigator.clipboard.writeText('[&DQMGOyYvRioNGwAAhgAAABAbAAAaGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+            href="javascript://"
+          >
+            Copy
+          </a>
+        </div>
+      </div>
 
-        <table class="w3-table w3-margin-top build-class">
-          <tr>
-            <td class="w3-left-align">
-              <i class="ic-mechanist-gw icon-class"></i>Condition Mechanist
-            </td>
-            <td class="w3-left-align">
-              Viper all. Elementalist rune. Pistol & Pistol (Earth / Bursting).
-            </td>
-            <td class="w3-right-align build-copy">
-              <a
-                onclick="navigator.clipboard.writeText('[&DQMGKyY5RjUNGwAAhgAAABAbAAAOGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-                href="javascript://"
-              >
-                Copy Build
-              </a>
-            </td>
-          </tr>
-        </table>
+      <div class="class-container">
+        <div class="build-name">
+          <div class="build-icon"><i class="ic-mechanist-gw"></i></div>
+          <div class="build-name__name">Condition Mechanist</div>
+        </div>
+        <div class="build-notes">
+          Viper all. Elementalist rune. Pistol & Pistol (Earth / Bursting).
+        </div>
+        <div class="build-copy">
+          <a
+            onclick="navigator.clipboard.writeText('[&DQMGKyY5RjUNGwAAhgAAABAbAAAOGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+            href="javascript://"
+          >
+            Copy
+          </a>
+        </div>
+      </div>
 
-        <table class="w3-table w3-margin-top build-class">
-          <tr>
-            <td class="w3-left-align">
-              <i class="ic-scrapper-gw icon-class"></i>Power Quickness Scrapper
-            </td>
-            <td class="w3-left-align">
-              Berserker all. Amulet & ring Diviner. Schoolar rune. Hammer (Force
-              / Impact).
-            </td>
-            <td class="w3-right-align build-copy">
-              <a
-                onclick="navigator.clipboard.writeText('[&DQMGOyYvKy3ZEgAAhgAAAK4SAAAnEwAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-                href="javascript://"
-              >
-                Copy Build
-              </a>
-            </td>
-          </tr>
-        </table>
-        <table class="w3-table w3-margin-top build-class">
-          <tr>
-            <td class="w3-left-align">
-              <i class="ic-holosmith-gw icon-class"></i>Power Holosmith
-            </td>
-            <td class="w3-left-align">
-              Berserker all. Schoolar rune. Sword & Pistol Berserker (Force /
-              Impact).
-            </td>
-            <td class="w3-right-align build-copy">
-              <a
-                onclick="navigator.clipboard.writeText('[&DQMGOyYvOSsqDwAAhgAAACYBAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-                href="javascript://"
-              >
-                Copy Build
-              </a>
-            </td>
-          </tr>
-        </table>
+      <div class="class-container">
+        <div class="build-name">
+          <div class="build-icon"><i class="ic-mechanist-gw"></i></div>
+          <div class="build-name__name">Power Quickness Scrapper</div>
+        </div>
+        <div class="build-notes">
+          Berserker all. Amulet & ring Diviner. Schoolar rune. Hammer (Force /
+          Impact).
+        </div>
+        <div class="build-copy">
+          <a
+            onclick="navigator.clipboard.writeText('[&DQMGOyYvKy3ZEgAAhgAAAK4SAAAnEwAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+            href="javascript://"
+          >
+            Copy
+          </a>
+        </div>
+      </div>
+      <div class="class-container">
+        <div class="build-name">
+          <div class="build-icon"><i class="ic-holosmith-gw"></i></div>
+          <div class="build-name__name">Power Holosmith</div>
+        </div>
+        <div class="build-notes">
+          Berserker all. Schoolar rune. Sword & Pistol Berserker (Force /
+          Impact).
+        </div>
+        <div class="build-copy">
+          <a
+            onclick="navigator.clipboard.writeText('[&DQMGOyYvOSsqDwAAhgAAACYBAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+            href="javascript://"
+          >
+            Copy
+          </a>
+        </div>
       </div>
     </div>
-    <!-- JAVA -->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://aisuu-svk.github.io/GW2_builds/script.js"></script>
   </body>
 </html>
