@@ -1,13 +1,13 @@
 @font-face {
   font-family: "gw2-font";
-  src: url("https://aisuu-svk.github.io/GW2_builds/assets/fonts/gw2-font.eot?x2e7m5");
-  src: url("https://aisuu-svk.github.io/GW2_builds/assets/fonts/gw2-font.eot?x2e7m5#iefix")
+  src: url("https://aisuu-svk.github.io/GW2_builds/src/assets/fonts/gw2-font.eot?x2e7m5");
+  src: url("https://aisuu-svk.github.io/GW2_builds/src/assets/fonts/gw2-font.eot?x2e7m5#iefix")
       format("embedded-opentype"),
-    url("https://aisuu-svk.github.io/GW2_builds/assets/fonts/gw2-font.ttf?x2e7m5")
+    url("https://aisuu-svk.github.io/GW2_builds/src/assets/fonts/gw2-font.ttf?x2e7m5")
       format("truetype"),
-    url("https://aisuu-svk.github.io/GW2_builds/assets/fonts/gw2-font.woff?x2e7m5")
+    url("https://aisuu-svk.github.io/GW2_builds/src/assets/fonts/gw2-font.woff?x2e7m5")
       format("woff"),
-    url("https://aisuu-svk.github.io/GW2_builds/assets/fonts/gw2-font.svg?x2e7m5#gw2-font")
+    url("https://aisuu-svk.github.io/GW2_builds/src/assets/fonts/gw2-font.svg?x2e7m5#gw2-font")
       format("svg");
   font-weight: normal;
   font-style: normal;
