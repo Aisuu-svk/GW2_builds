@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro:wght@300;400;700&display=swap");
+
+:root {
+  --clr-primary: #232931;
+  --clr-secondary: #393e46;
+  --clr-action: #1fbfa9;
+
+  --clr-action-light: #5ae8ba;
+
+  --clr-light: #eeeeee;
+  --clr-grey: #818085;
+
+  --clr-war: #caaa2a;
+  --clr-guard: #72c1d9;
+  --clr-rev: #a66356;
+
+  --clr-ran: #67a833;
+  --clr-eng: #d09c59;
+  --clr-thief: #c08f95;
+
+  --clr-mes: #b679d5;
+  --clr-necro: #2c9d5d;
+  --clr-ele: #dc423e;
+}
+
+.b-war,
+.b-guard,
+.b-rev,
+.b-ran,
+.b-eng,
+.b-thief,
+.b-mes,
+.b-necro,
+.b-ele {
+  border-radius: 5px 0 0 5px;
+}
+
+.war {
+  color: var(--clr-war);
+}
+
+.guard {
+  color: var(--clr-guard);
+}
+
+.rev {
+  color: var(--clr-rev);
+}
+
+.ran {
+  color: var(--clr-ran);
+}
+
+.eng {
+  color: var(--clr-eng);
+}
+
+.thief {
+  color: var(--clr-thief);
+}
+
+.mes {
+  color: var(--clr-mes);
+}
+
+.necro {
+  color: var(--clr-necro);
+}
+
+.ele {
+  color: var(--clr-ele);
+}
+
+.b-war {
+  border-left: 8px solid var(--clr-war);
+}
+
+.b-guard {
+  border-left: 8px solid var(--clr-guard);
+}
+
+.b-rev {
+  border-left: 8px solid var(--clr-rev);
+}
+
+.b-ran {
+  border-left: 8px solid var(--clr-ran);
+}
+
+.b-eng {
+  border-left: 8px solid var(--clr-eng);
+}
+
+.b-thief {
+  border-left: 8px solid var(--clr-thief);
+}
+
+.b-mes {
+  border-left: 8px solid var(--clr-mes);
+}
+
+.b-necro {
+  border-left: 8px solid var(--clr-necro);
+}
+
+.b-ele {
+  border-left: 8px solid var(--clr-ele);
+}
+
+/* COLORS END */
+
+.container {
+  max-width: 960px;
+}
+
+/* footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+} */
+
+.divider {
+  height: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--clr-action);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--clr-action-light);
+}
+
+.build-webpage {
+  color: var(--clr-action);
+}
+
+.build-webpage:hover {
+  color: var(--clr-action-light);
+}
+
+.build-copy-button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border-radius: 0;
+}
+
+.build-copy {
+  font-size: var(--fs-600);
+  color: var(--clr-action);
+  padding-top: 0.3em;
+}
+
+.build-arrow-more {
+  font-size: var(--fs-600);
+  color: var(--clr-grey);
+}
+
+.class-container {
+  background-color: var(--clr-secondary);
+  border-radius: 0 5px 5px 0;
+  /* padding: 0 0.5em 0 0.5em; */
+}
+
+/* Remove border from toggler */
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Lines of the Toggler */
+
+.bi-toggler-icon {
+  color: var(--clr-action);
+  height: 30px;
+  display: block;
+}
+
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #818085;
+  display: block;
+  transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar {
+  margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #1fbfa9;
+}
