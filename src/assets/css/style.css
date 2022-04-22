@@ -142,25 +142,49 @@
   color: var(--clr-action-light);
 }
 
-.build-copy-button {
-  appearance: none;
+.icon-default,
+.icon-down {
+  color: var(--clr-grey);
+}
+
+.checkbox-custom:checked ~ * .icon-default {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: rotate(90deg) scale(0.5);
+  opacity: 0;
+}
+
+.checkbox-custom:checked ~ * .icon-down {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+}
+
+.checkbox-custom:not(:checked) ~ * .icon-down {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: rotate(-90deg) scale(0.5);
+  opacity: 0;
+}
+
+.checkbox-custom:not(:checked) ~ * .icon-default {
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 1;
+}
+
+.visuallyhidden {
   border: 0;
-  background: transparent;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
   padding: 0;
-  margin: 0;
-  outline: 0;
-  border-radius: 0;
+  position: absolute;
 }
 
 .build-copy {
   font-size: var(--fs-600);
   color: var(--clr-action);
   padding-top: 0.3em;
-}
-
-.build-arrow-more {
-  font-size: var(--fs-600);
-  color: var(--clr-grey);
 }
 
 .class-container {

@@ -159,14 +159,23 @@
             ></a>
           </div>
           <div class="col-md-1 col-sm-1 col-2 text-center">
-            <button
-              onclick="iconChange(this)"
-              class="build-copy-button build-arrow-more"
+            <input
+              type="checkbox"
+              id="bran-1"
               data-bs-toggle="collapse"
               data-bs-target="#ran-1"
-            >
-              <i class="bi bi-caret-right fs-3"></i>
-            </button>
+              class="checkbox-custom visuallyhidden"
+            />
+            <label for="bran-1" onclick class="pt-1">
+              <span class="fa-stack">
+                <i
+                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                ></i
+                ><i
+                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                ></i>
+              </span>
+            </label>
           </div>
           <div id="ran-1" class="collapse">
             <div class="mx-2 mb-2">
