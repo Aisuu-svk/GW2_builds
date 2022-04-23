@@ -123,6 +123,10 @@ wrapper {
   height: 1rem;
 }
 
+label {
+  cursor: pointer;
+}
+
 .navbar-dark .navbar-nav .nav-link.active {
   color: var(--clr-action);
 }
@@ -182,6 +186,9 @@ wrapper {
   font-size: var(--fs-600);
   color: var(--clr-action);
   padding-top: 0.3em;
+}
+.build-copy:hover {
+  color: var(--clr-action-light);
 }
 
 .class-container {
