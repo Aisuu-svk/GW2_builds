@@ -27,12 +27,13 @@
     <script src="./assets/js/main.js"></script>
   </head>
   <body class="bg-dark text-light">
-    <div class="container">
+    <wrapper class="d-flex flex-column">
+      <!-- HEADER -->
       <header class="sticky-top navbar-dark bg-dark text-light">
         <div class="container-fluid">
           <div class="justify-content-center">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-              <a href="index.html" class="navbar-brand d-md-none">
+              <a href="../index.html" class="navbar-brand d-md-none">
                 <img src="./assets/images/gw2_logo.png" width="100" alt="" />
               </a>
               <button
@@ -51,7 +52,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto flex-row flex-wrap pt-2 pt-md-0">
                   <li class="nav-item">
-                    <a href="index.html" class="navbar-brand d-none d-md-block">
+                    <a
+                      href="../index.html"
+                      class="navbar-brand d-none d-md-block"
+                    >
                       <img
                         src="./assets/images/gw2_logo.png"
                         width="130"
@@ -140,453 +144,464 @@
           </div>
         </div>
       </header>
+      <!-- /HEADER -->
 
-      <h1 class="text-center">Engineer</h1>
+      <!-- MAIN -->
+      <main class="flex-fill">
+        <div class="container">
+          <h1 class="text-center">Engineer</h1>
+          <div class="divider"></div>
+          <!-- HEAL 1-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-mechanist-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 fs-4">Heal Alacrity</div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMvOR0fRiqEAAAAEBsAAAsbAACVAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-1"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-1"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-1" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-1" class="collapse">
+                <div class="mx-2 mb-2">
+                  <small
+                    >Harrier all & Monk rune. Mace & Shield (transference /
+                    paralyzation).
+                  </small>
+                  <small class="d-lg-none d-md-none"
+                    >Inventions: (113), Alchemy: (311), Mechanist: (222), Med
+                    Kit, Barrier Singet, Elixir Gun, Shift Signet, Mortar Kit.
+                  </small>
+                  <a
+                    href="https://snowcrows.com/builds/engineer/mechanist/heal-alacrity-mechanist"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <!-- Power Alacrity 2-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-mechanist-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
+                Power Alacrity
+              </div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMGOyYvRioNGwAAhgAAABAbAAAaGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-2"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-2"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-2" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-2" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >7 piece Diviner, rest Berserker. Mace & Pistol (Force /
+                    Air).
+                  </small>
+                  <small class="d-lg-none d-md-none"
+                    >Explosives: (323), Firearms: (332), Mechanist: (222),
+                    Rectifier Signet, Granade Kit, Shift Signet, Force Signet,
+                    Overclock Signet.
+                  </small>
+                  <a
+                    href="https://snowcrows.com/builds/engineer/mechanist/power-alacrity-mechanist"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <!-- Power Quickness Scrapper 3-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-scrapper-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
+                Power Quick.
+              </div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMGOyYvKy3ZEgAAhgAAAK4SAAAnEwAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-3"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-3"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-3" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-3" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >Berserker all. Amulet & ring Diviner. Scholar rune. Hammer
+                    (Force / Impact).
+                  </small>
+                  <small class="d-lg-none d-md-none">
+                    Explosives: (323), Firearms: (332), Scrapper: (132), Medic
+                    Gyro, Granade Kit, Shredder Gyro, Blast Gyro, Mortar Kit.
+                  </small>
+                  <a
+                    href="https://snowcrows.com/builds/engineer/scrapper/power-quickness-scrapper"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div class="divider"></div>
+          <div class="divider"></div>
+          <!-- Tank Scrapper tank-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-scrapper-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">Tank</div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMvOR09KxfZEgAAXgEAAIoBAACIAAAAiQEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-tank"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-tank"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-tank" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-tank" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >Minstrel all. Sanctuary rune. Pistol & Shield (Transference
+                    / Renewal).
+                  </small>
+                  <small class="d-lg-none d-md-none">
+                    Invention: (123), Alchemy: (133), Scrapper: (311), Medic
+                    Gyro, Elixir S, Tool Kit, Ram, Supply Crate.
+                  </small>
+                  <a
+                    href="http://gw2skills.net/editor/?vdAQJAqencoC1XhlcBOeBsehFDjiuxf8KPMAuv8T8cChBE-jhhYABtq+TvK/YWJIA7PI3JAozHAApA8blG-e"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <!-- main container -->
+          <div class="divider"></div>
+          <!-- Power Holosmith 4-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-holosmith-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
+                Power DPS
+              </div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMGOyYvOSsqDwAAhgAAACYBAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-4"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-4" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-4" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >Berserker all. Schoolar rune. Sword & Pistol Berserker
+                    (Force / Impact).
+                  </small>
+                  <small class="d-lg-none d-md-none">
+                    Explosives: (323), Firearms: (332), Holosmith: (322),
+                    A.E.D., Granade Kit, Custom, Laser Disk, Prime Light Beam.
+                  </small>
+                  <a
+                    href="https://snowcrows.com/builds/engineer/holosmith/power-holosmith"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <!-- Condition Holo 5-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-holosmith-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
+                Condition DPS
+              </div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMGKyY5RjUNGwAAhgAAABAbAAAOGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-5"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-5"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-5" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-5" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >Viper all. Elementalis rune. Mace & Pistol (Earth /
+                    Bursting).
+                  </small>
+                  <small class="d-lg-none d-md-none">
+                    Explosives: (322), Firearms: (123), Mechanist: (113),
+                    Rectifier Signet, Granade Kit, Shieft Signet,
+                    Superconducting Signet, Overclock Signet.
+                  </small>
+                  <a
+                    href="https://snowcrows.com/builds/engineer/mechanist/condition-mechanist"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <!-- Open World Mechanist 6-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-mechanist-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
+                Open World
+              </div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMdLiYZRjoNGxQBDhuNAZMBhgAQGwsbCRuJAQAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-6"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-6"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-6" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-6" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >Celestial all. Sanctuary rune. Pistol & Pistol Cele
+                    (Smoldering / Battle).
+                  </small>
+                  <small class="d-lg-none d-md-none">
+                    Alchemy: (232), Firearms: (121), Mechanist: (223), Rectifier
+                    Signet, Superconducting Signet, Flametrower, Shieft Signet,
+                    Overclock Signet.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <!-- WvW Roamer 7-->
+          <div class="b-eng">
+            <div class="class-container row gx-1">
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <i class="eng ic-scrapper-gw fs-1"></i>
+              </div>
+              <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
+                WvW Roamer
+              </div>
+              <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
+                <a
+                  onclick="navigator.clipboard.writeText('[&DQMmHx0aKz8UARQBXwFfAZMBXgEOE8wSgxKDEgAAAAAAAAAAAAAAAAAAAAA=]')"
+                  href="javascript://"
+                  ><span class="build-copy fa-regular fa-clone fs-4"></span
+                ></a>
+              </div>
+              <div class="col-md-1 col-sm-1 col-2 text-center">
+                <input
+                  type="checkbox"
+                  id="beng-7"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#eng-7"
+                  class="checkbox-custom visuallyhidden"
+                />
+                <label for="beng-7" onclick class="pt-1">
+                  <span class="fa-stack">
+                    <i
+                      class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
+                    ></i
+                    ><i
+                      class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
+                    ></i>
+                  </span>
+                </label>
+              </div>
+              <div id="eng-7" class="collapse">
+                <div class="text-light mx-2 mb-2">
+                  <small
+                    >Marauder armor & back. Acc. diviner. Rest Cavalier. Rune of
+                    Pack. Hammer marauder (Cleansing & Celerity).
+                  </small>
+                  <small class="d-lg-none d-md-none">
+                    Alchemy: (221), Firearms: (331), Scrapper: (333), Elixir H,
+                    Bulwark Gyro, Flametrower, Elixir U, Sneak Gyro.
+                  </small>
+                  <a
+                    href="https://metabattle.com/wiki/Build:Scrapper_-_Flamethrower_Scrapper_Roamer"
+                    target="_blank"
+                    class="build-webpage"
+                    ><span class="fs-4 mx-2 bi-journal-text"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- /MAIN -->
 
-      <!-- HEAL 1-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-mechanist-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 fs-4">Heal Alacrity</div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMvOR0fRiqEAAAAEBsAAAsbAACVAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-1"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-1"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-1" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-1" class="collapse">
-            <div class="mx-2 mb-2">
-              <small
-                >Harrier all & Monk rune. Mace & Shield (transference /
-                paralyzation).
-              </small>
-              <small class="d-lg-none d-md-none"
-                >Inventions: (113), Alchemy: (311), Mechanist: (222), Med Kit,
-                Barrier Singet, Elixir Gun, Shift Signet, Mortar Kit.
-              </small>
-              <a
-                href="https://snowcrows.com/builds/engineer/mechanist/heal-alacrity-mechanist"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <!-- Power Alacrity 2-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-mechanist-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
-            Power Alacrity
-          </div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMGOyYvRioNGwAAhgAAABAbAAAaGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-2"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-2"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-2" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-2" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >7 piece Diviner, rest Berserker. Mace & Pistol (Force / Air).
-              </small>
-              <small class="d-lg-none d-md-none"
-                >Explosives: (323), Firearms: (332), Mechanist: (222), Rectifier
-                Signet, Granade Kit, Shift Signet, Force Signet, Overclock
-                Signet.
-              </small>
-              <a
-                href="https://snowcrows.com/builds/engineer/mechanist/power-alacrity-mechanist"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <!-- Power Quickness Scrapper 3-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-scrapper-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
-            Power Quick.
-          </div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMGOyYvKy3ZEgAAhgAAAK4SAAAnEwAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-3"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-3"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-3" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-3" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >Berserker all. Amulet & ring Diviner. Scholar rune. Hammer
-                (Force / Impact).
-              </small>
-              <small class="d-lg-none d-md-none">
-                Explosives: (323), Firearms: (332), Scrapper: (132), Medic Gyro,
-                Granade Kit, Shredder Gyro, Blast Gyro, Mortar Kit.
-              </small>
-              <a
-                href="https://snowcrows.com/builds/engineer/scrapper/power-quickness-scrapper"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-      <!-- Tank Scrapper tank-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-scrapper-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">Tank</div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMvOR09KxfZEgAAXgEAAIoBAACIAAAAiQEAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-tank"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-tank"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-tank" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-tank" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >Minstrel all. Sanctuary rune. Pistol & Shield (Transference /
-                Renewal).
-              </small>
-              <small class="d-lg-none d-md-none">
-                Invention: (123), Alchemy: (133), Scrapper: (311), Medic Gyro,
-                Elixir S, Tool Kit, Ram, Supply Crate.
-              </small>
-              <a
-                href="http://gw2skills.net/editor/?vdAQJAqencoC1XhlcBOeBsehFDjiuxf8KPMAuv8T8cChBE-jhhYABtq+TvK/YWJIA7PI3JAozHAApA8blG-e"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-      <!-- Power Holosmith 4-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-holosmith-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">Power DPS</div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMGOyYvOSsqDwAAhgAAACYBAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-4"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-4"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-4" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-4" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >Berserker all. Schoolar rune. Sword & Pistol Berserker (Force /
-                Impact).
-              </small>
-              <small class="d-lg-none d-md-none">
-                Explosives: (323), Firearms: (332), Holosmith: (322), A.E.D.,
-                Granade Kit, Custom, Laser Disk, Prime Light Beam.
-              </small>
-              <a
-                href="https://snowcrows.com/builds/engineer/holosmith/power-holosmith"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <!-- Condition Holo 5-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-holosmith-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">
-            Condition DPS
-          </div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMGKyY5RjUNGwAAhgAAABAbAAAOGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-5"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-5"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-5" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-5" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >Viper all. Elementalis rune. Mace & Pistol (Earth / Bursting).
-              </small>
-              <small class="d-lg-none d-md-none">
-                Explosives: (322), Firearms: (123), Mechanist: (113), Rectifier
-                Signet, Granade Kit, Shieft Signet, Superconducting Signet,
-                Overclock Signet.
-              </small>
-              <a
-                href="https://snowcrows.com/builds/engineer/mechanist/condition-mechanist"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <!-- Open World Mechanist 6-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-mechanist-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">Open World</div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMdLiYZRjoNGxQBDhuNAZMBhgAQGwsbCRuJAQAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-6"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-6"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-6" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-6" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >Celestial all. Sanctuary rune. Pistol & Pistol Cele (Smoldering
-                / Battle).
-              </small>
-              <small class="d-lg-none d-md-none">
-                Alchemy: (232), Firearms: (121), Mechanist: (223), Rectifier
-                Signet, Superconducting Signet, Flametrower, Shieft Signet,
-                Overclock Signet.
-              </small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <!-- WvW Roamer 7-->
-      <div class="b-eng">
-        <div class="class-container row gx-1">
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <i class="eng ic-scrapper-gw fs-1"></i>
-          </div>
-          <div class="col-md-9 col-sm-9 col-8 text-light fs-4">WvW Roamer</div>
-          <div class="col-md-1 d-md-inline d-sm-none d-none text-end">
-            <a
-              onclick="navigator.clipboard.writeText('[&DQMmHx0aKz8UARQBXwFfAZMBXgEOE8wSgxKDEgAAAAAAAAAAAAAAAAAAAAA=]')"
-              href="javascript://"
-              ><span class="build-copy fa-regular fa-clone fs-4"></span
-            ></a>
-          </div>
-          <div class="col-md-1 col-sm-1 col-2 text-center">
-            <input
-              type="checkbox"
-              id="beng-7"
-              data-bs-toggle="collapse"
-              data-bs-target="#eng-7"
-              class="checkbox-custom visuallyhidden"
-            />
-            <label for="beng-7" onclick class="pt-1">
-              <span class="fa-stack">
-                <i
-                  class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                ></i
-                ><i
-                  class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                ></i>
-              </span>
-            </label>
-          </div>
-          <div id="eng-7" class="collapse">
-            <div class="text-light mx-2 mb-2">
-              <small
-                >Marauder armor & back. Acc. diviner. Rest Cavalier. Rune of
-                Pack. Hammer marauder (Cleansing & Celerity).
-              </small>
-              <small class="d-lg-none d-md-none">
-                Alchemy: (221), Firearms: (331), Scrapper: (333), Elixir H,
-                Bulwark Gyro, Flametrower, Elixir U, Sneak Gyro.
-              </small>
-              <a
-                href="https://metabattle.com/wiki/Build:Scrapper_-_Flamethrower_Scrapper_Roamer"
-                target="_blank"
-                class="build-webpage"
-                ><span class="fs-4 mx-2 bi-journal-text"></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer class="py-3">
-      <p class="text-center text-muted">© 2022 Aisuu</p>
-    </footer>
+      <!-- FOOTER -->
+      <footer class="py-3">
+        <p class="text-center text-muted">© 2022 Aisuu</p>
+      </footer>
+    </wrapper>
 
     <!-- FONT AWESOME SCRIPTS -->
     <script
