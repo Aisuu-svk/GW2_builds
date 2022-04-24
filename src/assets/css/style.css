@@ -127,6 +127,23 @@ label {
   cursor: pointer;
 }
 
+.card {
+  border-radius: 0.5rem;
+}
+
+.card-body {
+  border-radius: 0.5rem;
+}
+
+.btn-dark:hover {
+  background-color: var(--clr-action);
+  color: var(--clr-primary);
+}
+
+.link-dark:hover {
+  color: var(--clr-action);
+}
+
 .navbar-dark .navbar-nav .nav-link.active {
   color: var(--clr-action);
 }
