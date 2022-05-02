@@ -3,10 +3,9 @@
 
 :root {
   --clr-primary: #232931;
-  --clr-secondary: #393e46;
-  --clr-action: #1fbfa9;
-
-  --clr-action-light: #5ae8ba;
+  --clr-secondary: #3d4856;
+  --clr-action: #00c6b7;
+  --clr-action-light: #77fac6;
 
   --clr-light: #eeeeee;
   --clr-grey: #818085;
@@ -34,6 +33,24 @@
 .b-necro,
 .b-ele {
   border-radius: 5px 0 0 5px;
+}
+
+.bg-cus-secondary {
+  background-color: var(--clr-secondary);
+  /* border-radius: 0 5px 5px 0; */
+  /* padding: 0 0.5em 0 0.5em; */
+}
+
+.bg-cus-grey {
+  background-color: var(--clr-grey);
+}
+
+.bg-cus-action {
+  background-color: var(--clr-action);
+}
+
+.clr-action {
+  color: var(--clr-action);
 }
 
 .war {
@@ -137,10 +154,14 @@ label {
 
 .btn-dark:hover {
   background-color: var(--clr-action);
-  color: var(--clr-primary);
+  color: var(--clr-action-light);
 }
 
-.link-dark:hover {
+.btn:hover {
+  background-color: var(--clr-action-light);
+}
+
+.link-light:hover {
   color: var(--clr-action);
 }
 
@@ -206,12 +227,6 @@ label {
 }
 .build-copy:hover {
   color: var(--clr-action-light);
-}
-
-.class-container {
-  background-color: var(--clr-secondary);
-  border-radius: 0 5px 5px 0;
-  /* padding: 0 0.5em 0 0.5em; */
 }
 
 /* Remove border from toggler */

@@ -123,7 +123,11 @@
                     </a>
                   </li>
                   <li class="nav-item col-6 col-sm-auto text-start">
-                    <a class="nav-link" href="engineer.html">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="engineer.html"
+                    >
                       <i class="d-md-block text-center fs-2 ic-engineer-gw"></i>
                       <span class="px-1 px-md-0">Engineer</span>
                     </a>
@@ -170,71 +174,91 @@
         </div>
       </header>
       <!-- /HEADER -->
-
       <!-- MAIN -->
       <main class="flex-fill">
         <div class="container">
           <h1 class="text-center">Guardian</h1>
           <div class="divider"></div>
-          <!-- Frak heal 1 -->
-          <div class="b-guard">
-            <div class="class-container row gx-1">
-              <div class="d-flex justify-content-between bd-highlight">
-                <div class="p-2 bd-highlight">
-                  <i class="guard ic-firebrand-gw fs-1 px-3"></i>
+          <!-- ROW 1 -->
+          <div class="row">
+            <!-- Fractal Heal-->
+            <div class="col-lg-6 col-12">
+              <div class="b-guard card bg-cus-secondary">
+                <div class="d-flex justify-content-between bd-highlight">
+                  <div class="p-2 bd-highlight">
+                    <i class="guard ic-firebrand-gw fs-1"></i>
+                  </div>
+                  <div class="pt-3 flex-fill bd-highlight">
+                    <h4>Fractal Heal</h4>
+                  </div>
+                  <div class="p-2 pe-3 bd-highlight">
+                    <a
+                      title="Copy build"
+                      class="d-md-inline d-sm-none d-none"
+                      onclick="navigator.clipboard.writeText('[&DQEQLjElPjZLF0sXehZ6FksBNgH+AP4AiRKJEgAAAAAAAAAAAAAAAAAAAAA=]')"
+                      href="javascript://"
+                      ><span class="build-copy fa-regular fa-clone fs-4"></span
+                    ></a>
+                  </div>
                 </div>
-                <div class="pt-3 flex-fill bd-highlight">
-                  <h4>Fractal Heal</h4>
-                </div>
-                <div class="p-2 pe-3 bd-highlight">
+                <div class="card-body pt-0">
+                  Harrier all & Monk rune. Axe & Shield / Staff (transference /
+                  concentration). Lorem ipsum dolor sit amet.
+                  <span class="d-lg-none d-md-none"
+                    >Virtues: (222), Honor: (112), Firebrand: (213), Mantra of
+                    Solace, Mantra of Potent, Bow of Truth, Mantra of Lore,
+                    Mantra of Liberation.</span
+                  >
                   <a
                     href="https://metabattle.com/wiki/Build:Firebrand_-_Support_Healer"
                     target="_blank"
-                    title="Show build"
+                    title="Details"
                     class="build-webpage"
-                    ><span class="fs-4 mx-2 bi-journal-text"></span
-                  ></a>
-                  <a
-                    title="Copy build"
-                    onclick="navigator.clipboard.writeText('[&DQEQLjElPjZLF0sXehZ6FksBNgH+AP4AiRKJEgAAAAAAAAAAAAAAAAAAAAA=]')"
-                    href="javascript://"
-                    class="ps-3"
-                    ><span class="build-copy fa-regular fa-clone fs-4"></span
-                  ></a>
-                  <input
-                    type="checkbox"
-                    id="bguard-1"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#guard-1"
-                    class="checkbox-custom visuallyhidden"
-                  />
-                  <label for="bguard-1" onclick class="ps-2" title="Show more">
-                    <span class="fa-stack">
-                      <i
-                        class="fa-solid fa-angle-right fs-3 icon-default fa-stack-1x"
-                      ></i
-                      ><i
-                        class="fa-solid fa-angle-down fs-3 icon-down fa-stack-1x"
-                      ></i>
-                    </span>
-                  </label>
+                    >Details..</a
+                  >
                 </div>
               </div>
-              <div class="collapse px-4" id="guard-1">
-                <p>
-                  Harrier all & Monk rune. Axe & Shield / Staff (transference /
-                  concentration). Lorem ipsum dolor sit amet.
-                </p>
-                <span class="d-lg-none d-md-none"
-                  >Virtues: (222), Honor: (112), Firebrand: (213), Mantra of
-                  Solace, Mantra of Potent, Bow of Truth, Mantra of Lore, Mantra
-                  of Liberation.</span
-                >
+            </div>
+            <!-- /Fractal Heal -->
+
+            <!-- empty 1-->
+            <div class="col-lg-6 col-12 mt-3 mt-sm-3 mt-md-3 mt-lg-0">
+              <div class="b-guard card bg-cus-secondary">
+                <div class="d-flex justify-content-between bd-highlight">
+                  <div class="p-2 bd-highlight">
+                    <i class="guard ic-firebrand-gw fs-1"></i>
+                  </div>
+                  <div class="pt-3 flex-fill bd-highlight">
+                    <h4>empty</h4>
+                  </div>
+                  <div class="p-2 pe-3 bd-highlight">
+                    <a
+                      title="Copy build"
+                      class="d-md-inline d-sm-none d-none"
+                      onclick="navigator.clipboard.writeText('[&DQEQLjElPjZLF0sXehZ6FksBNgH+AP4AiRKJEgAAAAAAAAAAAAAAAAAAAAA=]')"
+                      href="javascript://"
+                      ><span class="build-copy fa-regular fa-clone fs-4"></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="card-body pt-0">
+                  Lorem ipsum dolor sit amet.
+                  <span class="d-lg-none d-md-none"
+                    >Lorem ipsum dolor sit amet.</span
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    title="Details"
+                    class="build-webpage"
+                    >Details..</a
+                  >
+                </div>
               </div>
             </div>
+            <!-- /empty -->
           </div>
-          <!-- /frak heal 1 -->
-          <div class="divider"></div>
+          <!-- /ROW 1 -->
         </div>
       </main>
       <!-- /MAIN -->
