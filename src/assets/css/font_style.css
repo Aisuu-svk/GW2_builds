@@ -30,6 +30,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-vindicator-gw:before {
+  content: "\e91c";
+}
+
 .ic-mechanist-gw:before {
   content: "\e91b";
 }
