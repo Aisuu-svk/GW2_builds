@@ -1,4 +1,4 @@
-# GW2_builds
+# Guild Wars 2 builds
 
 My private class builds for game Guild Wars 2
 
