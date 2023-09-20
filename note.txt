@@ -1,0 +1,15 @@
+% section of things
+  x thing I have done
+    details
+  - thing I need to do
+  ? things I consider
+  ~ things I consider
+  ! things that are important
+  !! super duper important
+    text
+
+
+
+
+
+  
